@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.pyo
+*.pyd
+*.pyc
+
+# SQLite database
+src/backend/users.db
+
+# Environment
+.env
+.venv/
+env/
+venv/
+*.lock
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test/output
+*.log
+
+# Pyright/Ruff cache
+.pyright/
+ruff_cache/
